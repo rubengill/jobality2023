@@ -1,5 +1,6 @@
 .app-container {
     background: #FAFDF6;
+    /* background: #f3f3ff; */
     min-height: 940px;
     width: 100%;
     height: 100vh;
@@ -10,4 +11,6 @@
     height: 450px;
     background: linear-gradient(to bottom, #AFD2E9 40%, #0E9594 50%);
     filter: blur(130px);
+    /* background: linear-gradient(to bottom, #fa39ad 40%, #fe6c4c 50%);
+    filter: blur(120px); */
 }

@@ -54,6 +54,11 @@ body {
     text-align: center;
 }
 
+a {
+    text-decoration: none;
+    color: black;
+}
+
 /*
 .multigradient {
     width: 100%;

@@ -1,16 +1,23 @@
-<<<<<<< HEAD
 body {
     margin: 8%;
     display: flex;
     justify-content: center;
 }
 
+.background {
+    background: linear-gradient(to bottom, #fa39ad 40%, #fe6c4c 50%);
+    filter: blur(120px);
+    box-shadow: 0.5px 10px #e6e6e6;
+    transition: 0.3s ease-in-out; 
+    background-position: center;
+}
+
 .wrapper {
     padding-top: 80px;
-    width: 600px;
-    height:900px;
+    width: 700px;
+    height:800px;
     background-color: antiquewhite;
-    /* opacity: 60%; */
+    opacity: 60%;
     justify-content: center;
     justify-items: center;
     box-shadow: 0.5px 10px #e6e6e6;
@@ -38,7 +45,7 @@ body {
     transition: 0.3s ease-in-out; 
     text-align: center;
 }
-=======
+
 .navbar {
     display: flex;
     justify-content: center;
@@ -53,11 +60,9 @@ body {
 }
 
 .circle {
-    width: 450px;
-    height: 450px;
-    background: linear-gradient(to bottom, #AFD2E9 40%, #0E9594 50%);
-    filter: blur(130px);
+    
+    /* background: linear-gradient(to bottom, #AFD2E9 40%, #0E9594 50%);
+    filter: blur(130px); */
     /* background: linear-gradient(to bottom, #fa39ad 40%, #fe6c4c 50%);
     filter: blur(120px); */
 }
->>>>>>> e9703394950931848812f358946a498341d91cb5

@@ -11,8 +11,9 @@
 }
 
 a:hover {
-  background-color: #1b6969;
-  color: #ddd;
+  background-color: #c7f2e3;
+  color: black;
+  border-color: #c7f2e3;
 }
 
 .previous {

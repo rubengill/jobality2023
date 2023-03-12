@@ -1,15 +1,16 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f2f2f2;
-    background: linear-gradient(to bottom, #f1f0f0 60%, #d4eeee 40%);
+  
+    background: #f1f0f0;
     /* background: linear-gradient(rgb(255, 255, 255) 0%, 
     rgb(255, 255, 255) 0%, rgb(255, 255, 255) 0%, rgba(250,57,173,1) 100%); */
+    height: 100vh;
 }
 
 #header {
     background-color: #3f9090;
     color: white;
-    height: 100px;
+    height: 130px;
     padding: 20px;
     justify-content: center;
     align-items: center;
@@ -38,6 +39,7 @@ body {
     background-color: white;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     text-align: center;
+    height:auto;
     /* width: auto; */
 
 }
@@ -48,17 +50,17 @@ body {
 #content4 img {
     float: left;
     margin-left: 15%;
-    padding: 2px;
+    padding: 20px;
     border: #3f9090 2px dashed;
     width: 33%;
-    height: auto;
+    height: 210px;
     border-radius: 15px;
 }
 
 
 
 h1 {
-    font-size: 40px;
+    font-size: 45px;
     text-align: center;
 }
 
@@ -79,16 +81,18 @@ img {
 #social-links button {
     display: inline-block;
     /* margin-right: 10px; */
-    width: 100px;
-    height: 100px;
-    background-color: #3f9090;
-    color: white;
+    width: 120px;
+    height: 50px;
+    color: #3f9090;
+    background-color: white;
     text-align: center;
     line-height: 40px;
     border-radius: 25%;
     transition: all 0.2s ease-in-out;
     font-size: 22px;
     font-weight: 400;
+    box-shadow: 0 0 5px cyan,
+    0 0 25px cyan;
 }
 
 #social-links button:hover {
@@ -97,7 +101,12 @@ img {
 
 .copyright {
     color: #3f9090;
-    margin-top: 10px;
+    margin-top: 2%;
     display: flex;
-    right: 0;
+    justify-content: right;
+
 }
+
+
+
+

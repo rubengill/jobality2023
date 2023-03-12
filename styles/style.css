@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
     margin: 8%;
     display: flex;
@@ -37,3 +38,26 @@ body {
     transition: 0.3s ease-in-out; 
     text-align: center;
 }
+=======
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .app-container {
+    background: #FAFDF6;
+    /* background: #f3f3ff; */
+    min-height: 940px;
+    width: 100%;
+    height: 100vh;
+}
+
+.circle {
+    width: 450px;
+    height: 450px;
+    background: linear-gradient(to bottom, #AFD2E9 40%, #0E9594 50%);
+    filter: blur(130px);
+    /* background: linear-gradient(to bottom, #fa39ad 40%, #fe6c4c 50%);
+    filter: blur(120px); */
+}
+>>>>>>> e9703394950931848812f358946a498341d91cb5

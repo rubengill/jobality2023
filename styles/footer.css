@@ -35,5 +35,45 @@ a {
   .copyright > a {
     color: #0E9594;
   }
+
+  .footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #f5f5f5;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .back-btn {
+    display: flex;
+    justify-content: center;
+  padding: 10px 10px;
+  border: 1px solid #333;
+  border-radius: 5px;
+  text-decoration: none;
+  color: #333;
+  font-size: 14px;
+  }
+  
+  .footer-text {
+    font-size: 14px;
+    text-align: center;
+  }
+  
+  @media (max-width: 480px) {
+    .footer {
+      padding: 5px;
+    }
+    .back-btn {
+      font-size: 12px;
+    }
+    .footer-text {
+      font-size: 12px;
+    }
+  }
   
   

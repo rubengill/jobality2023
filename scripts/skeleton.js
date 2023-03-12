@@ -3,3 +3,4 @@ function loadSkeleton() {
         console.log($('#footerPlaceholder').load('./text/footer.html'));
 }
 loadSkeleton(); //invoke the function
+    

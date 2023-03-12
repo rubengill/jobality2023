@@ -1,16 +1,7 @@
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-body {
-    margin: 8%;
-    display: flex;
-    justify-content: center;
-}
-
 .wrapper {
     padding-top: 80px;
-    width: 600px;
-    height:900px;
+    width: 200px;
+    height:300px;
     background-color: antiquewhite;
     /* opacity: 60%; */
     justify-content: center;
@@ -40,11 +31,10 @@ body {
     transition: 0.3s ease-in-out; 
     text-align: center;
 }
-=======
->>>>>>> 5a227a9a3fe4abbbdf5697f07be5f695b750ab2b
+
 .app-container {
   /* background: #76be19; */
-  /* background: #f3f3ff; */
+  background: #f3f3ff;
   /* min-height: 840px; */
   width: 100%;
   max-height: 800px;
@@ -55,31 +45,3 @@ body {
   bottom: 0;
 }
 
-#navbarPlaceholder {
-  display: flex;
-  justify-content: center;
-  width:100%;
-  align-items: center;
-  margin: 10px 0;
-
-}
-
-.circle {
-  width: 450px;
-  height: 450px;
-  background: linear-gradient(to bottom, #AFD2E9 40%, #0E9594 50%);
-  filter: blur(130px);
-  /* background: linear-gradient(to bottom, #fa39ad 40%, #fe6c4c 50%);
-    filter: blur(120px); */
-  margin: 20px 0;
-}
-
-#footerPlaceholder {
-  margin: 10px 0;
-  /* background-color: #0E9594; */
-<<<<<<< HEAD
-}
-=======
-}
->>>>>>> e9703394950931848812f358946a498341d91cb5
->>>>>>> 5a227a9a3fe4abbbdf5697f07be5f695b750ab2b

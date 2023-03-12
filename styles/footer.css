@@ -3,10 +3,11 @@ a {
     display: inline-block;
     padding: 8px 16px;
     text-align:center;
-    width:50px;
-    border-radius: 20px;
+    width:70px;
+    height: 30px;
+    border-radius: 15px;
     font-weight: bold;
-    font-size:large;
+    font-size:30px;
   }
   
   a:hover {
@@ -19,4 +20,18 @@ a {
     color: black;
   }
   
+  .copyright{
+    display: block;
+    /* float: right; */
+    margin-top: 10px;
+    color:  #1b6969;
+    background-color: #e0f4f4;
+    font-size:25px;
+    font-weight:bold;
+    padding: 1%;
+  }
+
+  .copyright > a {
+    color:  #1b6969;
+  }
   

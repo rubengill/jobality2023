@@ -1,6 +1,4 @@
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
+
 body {
     margin: 8%;
     display: flex;
@@ -9,8 +7,8 @@ body {
 
 .wrapper {
     padding-top: 80px;
-    width: 600px;
-    height:900px;
+    width: 80%;
+    height:80%;
     background-color: antiquewhite;
     /* opacity: 60%; */
     justify-content: center;
@@ -40,19 +38,18 @@ body {
     transition: 0.3s ease-in-out; 
     text-align: center;
 }
-=======
->>>>>>> 5a227a9a3fe4abbbdf5697f07be5f695b750ab2b
+
 .app-container {
   /* background: #76be19; */
   /* background: #f3f3ff; */
   /* min-height: 840px; */
   width: 100%;
-  max-height: 800px;
+  height:900px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  bottom: 0;
+  margin: 2%;
 }
 
 #navbarPlaceholder {
@@ -77,9 +74,4 @@ body {
 #footerPlaceholder {
   margin: 10px 0;
   /* background-color: #0E9594; */
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> e9703394950931848812f358946a498341d91cb5
->>>>>>> 5a227a9a3fe4abbbdf5697f07be5f695b750ab2b

@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    background: linear-gradient(to bottom, #f1f0f0 60%, #d4eeee 40%);
+    /* background: linear-gradient(rgb(255, 255, 255) 0%, 
+    rgb(255, 255, 255) 0%, rgb(255, 255, 255) 0%, rgba(250,57,173,1) 100%); */
+}
+
+#header {
+    background-color: #3f9090;
+    color: white;
+    height: 100px;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    margin: 3%;
+}
+
+#content1,
+#content2,
+#content3,
+#content4 {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: 5%;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    /* width: auto; */
+
+}
+
+#content1 img,
+#content2 img,
+#content3 img,
+#content4 img {
+    float: left;
+    margin-left: 15%;
+    padding: 2px;
+    border: #3f9090 2px dashed;
+    width: 33%;
+    height: auto;
+    border-radius: 15px;
+}
+
+
+
+h1 {
+    font-size: 40px;
+    text-align: center;
+}
+
+/* 
+img {
+    width:50px;
+    height: 50px;
+} */
+
+#bio {
+    margin-top: 20px;
+}
+
+#social-links {
+    margin-top: 20px;
+}
+
+#social-links button {
+    display: inline-block;
+    /* margin-right: 10px; */
+    width: 100px;
+    height: 100px;
+    background-color: #3f9090;
+    color: white;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 25%;
+    transition: all 0.2s ease-in-out;
+    font-size: 22px;
+    font-weight: 400;
+}
+
+#social-links button:hover {
+    transform: scale(1.1);
+}
+
+.copyright {
+    color: #3f9090;
+    margin-top: 10px;
+    display: flex;
+    right: 0;
+}

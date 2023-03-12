@@ -1,39 +1,36 @@
-a {
-    text-decoration: none;
-    display: inline-block;
-    padding: 8px 16px;
-    
-    width:75px;
-    height: 40px;
-    border-radius: 15px;
-    font-weight: bold;
-    font-size:22pxpx;
-  }
+.button {
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 16px;
   
-  a:hover {
-    background-color: #1b6969;
-    color: #ddd;
-  }
-  
-  .previous {
-    background: #ddd;
-    color: black;
-    text-align:center;
-  }
-  
-  .copyright{
-    display: block;
-    /* float: right; */
-    margin-top: 10px;
-    color:  #1b6969;
-    /* background-color: #e0f4f4; */
-    font-size:20px;
-    font-weight:lighter;
-    padding: 1%;
-  }
+  width:75px;
+  height: 40px;
+  border-radius: 15px;
+  font-weight: bold;
+  font-size:22px;
+}
 
-  .copyright > a {
-    color: #0E9594;
-  }
-  
+a:hover {
+  background-color: #1b6969;
+  color: #ddd;
+}
+
+.previous {
+  background: #ddd;
+  color: black;
+  text-align:center;
+}
+
+.copyright{
+  display: block;
+  /* float: right; */
+  margin-top: 10px;
+  color:  #1b6969;
+  /* background-color: #e0f4f4; */
+  font-size:20px;
+  font-weight:lighter;
+  padding: 1%;
+}
+
+
   

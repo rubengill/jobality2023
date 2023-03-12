@@ -35,7 +35,7 @@ body {
     padding: 8%;
     height: 300px;
     width: 375px;
-    background-color: whitesmoke;
+    background: rgba(255, 255, 255, 0.4);
     opacity: 80%;
     box-shadow: 0.5px 10px #e6e6e6;
     transition: 0.3s ease-in-out; 

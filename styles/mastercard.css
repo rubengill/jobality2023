@@ -1,0 +1,64 @@
+.multigradient {
+    min-height: 400px;
+}
+
+.wrapper {
+    /* position: fixed; */
+    padding-top: 20px;
+    width: 100%;
+    height: auto;
+    /* background-color: antiquewhite; */
+    opacity: 80%;
+    justify-content: center;
+    justify-items: center;
+    box-shadow: 0.5px 10px #e6e6e6;
+    transition: 0.3s ease-in-out;
+    border-radius: 25px;
+    text-align: center;
+}
+
+body {
+    background-image: url("/img/background.png");
+    background-size: cover;
+    background-position: center;
+    height: auto;
+}
+
+img {
+    margin: 2%;
+    width: 210px;
+    height: 150px;
+    border-radius: 15%;
+}
+
+.wrapper #description {
+
+    margin: 2%;
+    padding: 2%;
+    font-size: 20px;
+}
+
+#company {
+    font-weight: bold;
+    color: #FFA800;
+}
+
+#adj {
+    font-weight: bold;
+    color: #EA2D2E;
+}
+
+h1 {
+    font-weight: bold;
+}
+
+.card {
+    height: auto;
+    width: auto;
+    background-color: whitesmoke;
+    margin: 5%;
+    text-align: center;
+    border-radius: 10%;
+    justify-content: center;
+    
+}

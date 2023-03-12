@@ -12,6 +12,7 @@ body {
     background-image: url("/img/background.png");
     background-size: cover;
     background-position: center;
+    height:auto;
   }
 
 .wrapper {
@@ -33,7 +34,7 @@ body {
 
 .container {
     padding: 8%;
-    height: 300px;
+    height: auto;
     width: 375px;
     background: rgba(255, 255, 255, 0.4);
     opacity: 80%;

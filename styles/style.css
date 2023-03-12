@@ -1,3 +1,4 @@
+/*
 .background {
     background: linear-gradient(to bottom, #fa39ad 40%, #fe6c4c 50%);
     filter: blur(120px);
@@ -5,15 +6,23 @@
     transition: 0.3s ease-in-out; 
     background-position: center;
 }
+*/
 
+body {
+    background-image: url("/img/background.png");
+    background-size: cover;
+    background-position: center;
+  }
 
 .wrapper {
     position: fixed;
-    padding-top: 80px;
+    padding-top: 50px;
     width: 100%;
     height:100%;
+/*
     background-color: antiquewhite;
     opacity: 80%;
+*/
     justify-content: center;
     justify-items: center;
     box-shadow: 0.5px 10px #e6e6e6;
@@ -27,6 +36,7 @@
     height: 300px;
     width: 375px;
     background-color: whitesmoke;
+    opacity: 80%;
     box-shadow: 0.5px 10px #e6e6e6;
     transition: 0.3s ease-in-out; 
     text-align: center;
@@ -36,23 +46,18 @@
 .card {
     height: auto;
     width: 160px;
-    background-color: whitesmoke;
-    margin: 30px auto;
+/*    background-color: whitesmoke;*/
+    margin: 3px auto;
     box-shadow: 0.5px 10px #e6e6e6;
     transition: 0.3s ease-in-out; 
     text-align: center;
 }
 
+/*
 .multigradient {
     width: 100%;
     height: 800px;
     background: linear-gradient(rgb(255, 255, 255) 0%, rgb(255, 255, 255) 0%, rgb(255, 255, 255) 0%, rgba(250,57,173,1) 100%);
     border-radius: 25px;
 }
-
-.circle {
-    width: 450px;
-    height: 450px;
-    background: linear-gradient(to bottom, #fa39ad 40%, #fe6c4c 50%);
-    filter: blur(120px);
-}
+*/

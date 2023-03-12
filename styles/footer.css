@@ -2,12 +2,12 @@
   text-decoration: none;
   display: inline-block;
   padding: 8px 16px;
-  
-  width:75px;
+
+  width: 75px;
   height: 40px;
   border-radius: 15px;
   font-weight: bold;
-  font-size:22px;
+  font-size: 22px;
 }
 
 a:hover {
@@ -19,63 +19,63 @@ a:hover {
 .previous {
   background: #ddd;
   color: black;
-  text-align:center;
+  text-align: center;
 }
 
-.copyright{
+.copyright {
   display: block;
   /* float: right; */
   margin-top: 10px;
-  color:  #1b6969;
+  color: #1b6969;
   /* background-color: #e0f4f4; */
-  font-size:20px;
-  font-weight:lighter;
+  font-size: 20px;
+  font-weight: lighter;
   padding: 1%;
 }
 
 
-  .copyright > a {
-    color: #0E9594;
-  }
+.copyright>a {
+  color: #0E9594;
+}
 
-  .footer {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    background: rgba(255, 255, 255, 0.4);
-    padding: 10px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  
-  .back-btn {
-    display: flex;
-    justify-content: center;
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.4);
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.back-btn {
+  display: flex;
+  justify-content: center;
   padding: 10px 10px;
   border: 1px solid #333;
   border-radius: 5px;
   text-decoration: none;
   color: #333;
   font-size: 14px;
+}
+
+.footer-text {
+  font-size: 14px;
+  text-align: center;
+}
+
+@media (max-width: 480px) {
+  .footer {
+    padding: 5px;
   }
-  
+
+  .back-btn {
+    font-size: 12px;
+  }
+
   .footer-text {
-    font-size: 14px;
-    text-align: center;
+    font-size: 12px;
   }
-  
-  @media (max-width: 480px) {
-    .footer {
-      padding: 5px;
-    }
-    .back-btn {
-      font-size: 12px;
-    }
-    .footer-text {
-      font-size: 12px;
-    }
-  }
-  
-  
+}

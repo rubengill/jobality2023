@@ -23,6 +23,7 @@
 }
 
 .container {
+    padding: 8%;
     height: 300px;
     width: 375px;
     background-color: whitesmoke;

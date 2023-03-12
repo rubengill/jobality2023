@@ -46,9 +46,9 @@ body {
 
 .card {
     height: auto;
-    width: 160px;
+    width: 250px;
 /*    background-color: whitesmoke;*/
-    margin: 3px auto;
+    margin: auto;
     box-shadow: 0.5px 10px #e6e6e6;
     transition: 0.3s ease-in-out; 
     text-align: center;

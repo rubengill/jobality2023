@@ -6,14 +6,14 @@
     /* position: fixed; */
     padding-top: 20px;
     width: 100%;
-    height: auto;
+    height: 800px;
     /* background-color: antiquewhite; */
     opacity: 80%;
     justify-content: center;
     justify-items: center;
     box-shadow: 0.5px 10px #e6e6e6;
     transition: 0.3s ease-in-out;
-    border-radius: 25px;
+    /* border-radius: 25px; */
     text-align: center;
 }
 

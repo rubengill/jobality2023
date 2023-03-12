@@ -1,5 +1,5 @@
 body {
-    margin: 8%;
+    margin: 30px;
     display: flex;
     justify-content: center;
 }
@@ -12,12 +12,14 @@ body {
     background-position: center;
 }
 
+
 .wrapper {
+    position: fixed;
     padding-top: 80px;
-    width: 700px;
+    width: 800px;
     height:800px;
     background-color: antiquewhite;
-    opacity: 60%;
+    opacity: 80%;
     justify-content: center;
     justify-items: center;
     box-shadow: 0.5px 10px #e6e6e6;
@@ -27,7 +29,7 @@ body {
 }
 
 .container {
-    height: 200px;
+    height: 300px;
     width: 375px;
     background-color: whitesmoke;
     box-shadow: 0.5px 10px #e6e6e6;
@@ -46,23 +48,37 @@ body {
     text-align: center;
 }
 
-.navbar {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .app-container {
-    background: #FAFDF6;
-    /* background: #f3f3ff; */
+.app-container {
+    background: #f3f3ff;
     min-height: 940px;
     width: 100%;
     height: 100vh;
 }
 
+#navbarPlaceholder {
+  display: flex;
+  justify-content: center;
+  width:100%;
+  align-items: center;
+  margin: 10px 0;
+
+}
+
+.multigradient {
+    width: 800px;
+    height: 800px;
+    background: linear-gradient(rgb(255, 255, 255) 0%, rgb(255, 255, 255) 0%, rgb(255, 255, 255) 0%, rgba(250,57,173,1) 100%);
+    border-radius: 25px;
+}
+
 .circle {
-    
-    /* background: linear-gradient(to bottom, #AFD2E9 40%, #0E9594 50%);
-    filter: blur(130px); */
-    /* background: linear-gradient(to bottom, #fa39ad 40%, #fe6c4c 50%);
-    filter: blur(120px); */
+    width: 450px;
+    height: 450px;
+    background: linear-gradient(to bottom, #fa39ad 40%, #fe6c4c 50%);
+    filter: blur(120px);
+}
+
+#footerPlaceholder {
+  margin: 10px 0;
+  /* background-color: #0E9594; */
 }
